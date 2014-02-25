@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{afdc2327-85fe-477e-85a2-6db315c2e225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC">
+      <UniqueIdentifier>{c85f843d-6051-4664-abd3-25a0439254b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ETC\Random">
+      <UniqueIdentifier>{b279ec80-10cd-457d-a622-18cb1655af23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{da35a778-3d1c-4fbd-b59f-737c2260b830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ship">
+      <UniqueIdentifier>{34de6d4e-7bea-400c-b275-55810d1d4912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map">
+      <UniqueIdentifier>{82dd7f80-3648-4dcb-9c5a-cacc3c1e320b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{6fbc633a-ed8c-4221-81b1-ed75ef0f9eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ship\Aircraft">
+      <UniqueIdentifier>{aedd405f-0d50-47f9-8893-43a3cd4b5e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ship\Battleship">
+      <UniqueIdentifier>{1b89572c-8cec-4b04-9dbf-d4152df185b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ship\Cruiser">
+      <UniqueIdentifier>{991544e7-95b1-4113-adf5-1c426062003e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ship\Destroyer">
+      <UniqueIdentifier>{da57e176-079b-4598-a788-8cddcf718675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Ship\Submarine">
+      <UniqueIdentifier>{0aa5156c-6bf1-4d12-a80c-103630feba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{47294a43-43e1-4367-9b1e-877b59d3e870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{78a8dbe6-2237-4a9f-b6f0-12e09e8aac72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\OutputUI">
+      <UniqueIdentifier>{5ca768d9-c6a5-4e75-8295-74080bc31012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SoundUI">
+      <UniqueIdentifier>{3a94f9b1-5651-4d81-a5e0-3edf093451a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WellRandom.h">
+      <Filter>ETC\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Aircraft.h">
+      <Filter>Object\Ship\Aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship.h">
+      <Filter>Object\Ship\Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Cruiser.h">
+      <Filter>Object\Ship\Cruiser</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyer.h">
+      <Filter>Object\Ship\Destroyer</Filter>
+    </ClInclude>
+    <ClInclude Include="Submarine.h">
+      <Filter>Object\Ship\Submarine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Object\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputUI.h">
+      <Filter>UI\OutputUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShipMap.h">
+      <Filter>Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundUI.h">
+      <Filter>UI\SoundUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WellRandom.cpp">
+      <Filter>ETC\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Aircraft.cpp">
+      <Filter>Object\Ship\Aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship.cpp">
+      <Filter>Object\Ship\Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Cruiser.cpp">
+      <Filter>Object\Ship\Cruiser</Filter>
+    </ClCompile>
+    <ClCompile Include="Destroyer.cpp">
+      <Filter>Object\Ship\Destroyer</Filter>
+    </ClCompile>
+    <ClCompile Include="Submarine.cpp">
+      <Filter>Object\Ship\Submarine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Object\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputUI.cpp">
+      <Filter>UI\OutputUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShipMap.cpp">
+      <Filter>Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundUI.cpp">
+      <Filter>UI\SoundUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
